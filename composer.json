@@ -1,0 +1,22 @@
+{
+    "name": "lordar221617/portfolio",
+    "description": "this is a portfolio wesite",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lordar221617\\Portfolio\\": "app/lib/",
+            "Lordar221617\\Portfolio\\Controller\\": "app/controller/",
+            "Lordar221617\\Portfolio\\Model\\": "app/model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amir Reza Uneszadeh",
+            "email": "arush221617@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
